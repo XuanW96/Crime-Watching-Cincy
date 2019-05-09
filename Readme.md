@@ -2,7 +2,7 @@ Online Crime watch platform for Cincinnati Police Department.
 
 
 Individual Work by :
-Zixuan Wang
+Zixuan Wang<br>
 
 Master of Urban Spatial Analytics, 2018
 
