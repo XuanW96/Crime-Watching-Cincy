@@ -14,8 +14,8 @@ var map = L.map('map', {
 //basemapURL = "http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}"
 //basemapURL = "https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png"
 //basemapURL = "https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png"
-basemapURL =	"https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
-//basemapURL ="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
+//basemapURL =	"https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
+basemapURL ="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
 var Stamen_TonerLite = L.tileLayer(basemapURL, {
   attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   subdomains: 'abcd',
